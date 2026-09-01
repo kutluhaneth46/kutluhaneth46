@@ -45,6 +45,8 @@ Contributor across **Arc**, **Tempo**, **Miden**, and **Sapiom** — docs, SDK f
 <details>
 <summary>Miden (0xMiden)</summary>
 
+- [web-sdk #356](https://github.com/0xMiden/web-sdk/pull/356) — vite-plugin CI lint
+- [web-sdk #355](https://github.com/0xMiden/web-sdk/pull/355) — idxdb downgrade store reset
 - [web-sdk #353](https://github.com/0xMiden/web-sdk/pull/353) — sendPrivateNote block hint
 - [web-sdk #351](https://github.com/0xMiden/web-sdk/pull/351) — note status fingerprint
 - [web-sdk #332](https://github.com/0xMiden/web-sdk/pull/332) — waitForBlock + syncState
