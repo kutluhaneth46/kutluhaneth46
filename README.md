@@ -13,7 +13,7 @@ Contributor across **Arc**, **Tempo**, **Miden**, and **Sapiom** — docs, SDK f
 
 ## Community showcases
 
-- Arc: [arc-dev-survival-kit](https://github.com/kutluhaneth46/arc-dev-survival-kit) (linked from [arc-node #299](https://github.com/circlefin/arc-node/pull/299))
+- Arc: [arc-node #305](https://github.com/circlefin/arc-node/issues/305) · [arc-dev-survival-kit](https://github.com/kutluhaneth46/arc-dev-survival-kit)
 - Tempo: [tempo-support #28](https://github.com/tempoxyz/tempo-support/issues/28)
 - Miden: [web-sdk #354](https://github.com/0xMiden/web-sdk/issues/354)
 - Sapiom: [ecosystem-monitor agent](https://app.sapiom.ai/agents/748)
