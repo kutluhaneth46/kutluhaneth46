@@ -23,6 +23,7 @@ Contributor across **Arc**, **Tempo**, **Miden**, and **Sapiom** — docs, SDK f
 <details>
 <summary>Arc (circlefin)</summary>
 
+- [arc-node #306](https://github.com/circlefin/arc-node/pull/306) — operator docs (version pins, eth_blockNumber)
 - [arc-node #299](https://github.com/circlefin/arc-node/pull/299) — public testnet RPC guide (EIP-7825)
 - [arc-node #297](https://github.com/circlefin/arc-node/pull/297) — JSON-RPC breaking changes
 - [arc-node #295](https://github.com/circlefin/arc-node/pull/295) — RPC transport deprecation
