@@ -1,6 +1,6 @@
 # kutluhaneth46
 
-Contributor across **Arc**, **Tempo**, **Miden**, and **Sapiom** — docs, SDK fixes, and small reference repos.
+Contributor across **Arc**, **Tempo**, **Miden**, **Sapiom**, **ACK**, and **Base**: docs, SDK fixes, and small reference repos.
 
 ## Showcase repos
 
@@ -10,6 +10,8 @@ Contributor across **Arc**, **Tempo**, **Miden**, and **Sapiom** — docs, SDK f
 | **Tempo** | Batch payout & reconciliation CLI | [tempo-batch-reconcile](https://github.com/kutluhaneth46/tempo-batch-reconcile) |
 | **Miden** | Web SDK survival kit (private notes, sync, amounts) | [miden-dev-survival-kit](https://github.com/kutluhaneth46/miden-dev-survival-kit) |
 | **Sapiom** | Multi-ecosystem PR & RPC monitor agent | [ecosystem-monitor-agent](https://github.com/kutluhaneth46/ecosystem-monitor-agent) |
+| **ACK** | Agent Commerce Kit: pay validation, HITL types, 402 middleware | [agentcommercekit/ack](https://github.com/agentcommercekit/ack/pulls?q=is%3Apr+author%3Akutluhaneth46) |
+| **Base** | Receipt Guard (tx/calldata decode + risk before sign) | [receipt-guard](https://github.com/kutluhaneth46/receipt-guard) |
 
 ## Community showcases
 
@@ -17,6 +19,8 @@ Contributor across **Arc**, **Tempo**, **Miden**, and **Sapiom** — docs, SDK f
 - Tempo: [tempo-support #28](https://github.com/tempoxyz/tempo-support/issues/28)
 - Miden: [web-sdk #354](https://github.com/0xMiden/web-sdk/issues/354)
 - Sapiom: [ecosystem-monitor agent](https://app.sapiom.ai/agents/748)
+- ACK: [ack #203](https://github.com/agentcommercekit/ack/pull/203) · [ack #202](https://github.com/agentcommercekit/ack/pull/202)
+- Base: [receipt-guard](https://github.com/kutluhaneth46/receipt-guard) · [base/node #1179](https://github.com/base/node/pull/1179)
 
 ## Open contributions
 
@@ -59,6 +63,30 @@ Contributor across **Arc**, **Tempo**, **Miden**, and **Sapiom** — docs, SDK f
 <summary>Sapiom</summary>
 
 - [sapiom-js #748](https://github.com/sapiom/sapiom-js/pull/748) — nullable JSON Schema unions
+
+</details>
+
+<details>
+<summary>ACK (agentcommercekit)</summary>
+
+- [ack #203](https://github.com/agentcommercekit/ack/pull/203) — reject empty payment request and option fields
+- [ack #202](https://github.com/agentcommercekit/ack/pull/202) — reject negative payment option decimals
+- [ack #198](https://github.com/agentcommercekit/ack/pull/198) — accept uppercase 0X prefix in isHexString
+- [ack #197](https://github.com/agentcommercekit/ack/pull/197) — cumulative spend budget in policy guard demo
+- [ack #195](https://github.com/agentcommercekit/ack/pull/195) — HITL approval request and decision types
+- [ack #190](https://github.com/agentcommercekit/ack/pull/190) — HTTP 402 payment-required middleware
+- [ack #189](https://github.com/agentcommercekit/ack/pull/189) — map ACK-Pay concepts to MPP and x402
+
+</details>
+
+<details>
+<summary>Base</summary>
+
+- [base/node #1179](https://github.com/base/node/pull/1179) — fix remaining broken and outdated docs links
+- [base/docs #1931](https://github.com/base/docs/pull/1931) — LICENSE and license badge link
+- [base/docs #1929](https://github.com/base/docs/pull/1929) — slashless .mintignore directory globs
+- [receipt-guard](https://github.com/kutluhaneth46/receipt-guard) — Base tx/calldata decode + risk receipt
+- [base-guild-builder-kit](https://github.com/kutluhaneth46/base-guild-builder-kit) — Guild Builders & Founders deploy kit
 
 </details>
 
