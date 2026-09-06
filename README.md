@@ -1,6 +1,6 @@
 # kutluhaneth46
 
-Contributor across **Arc**, **Tempo**, **Miden**, **Sapiom**, **ACK**, and **Base**: docs, SDK fixes, and small reference repos.
+Contributor across **Arc**, **Tempo**, **Miden**, **Sapiom**, **ACK**, **Base**, and **Fhenix**: docs, SDK fixes, and small reference repos.
 
 ## Showcase repos
 
@@ -12,6 +12,7 @@ Contributor across **Arc**, **Tempo**, **Miden**, **Sapiom**, **ACK**, and **Bas
 | **Sapiom** | Multi-ecosystem PR & RPC monitor agent | [ecosystem-monitor-agent](https://github.com/kutluhaneth46/ecosystem-monitor-agent) |
 | **ACK** | Agent Commerce Kit: pay validation, HITL types, 402 middleware | [agentcommercekit/ack](https://github.com/agentcommercekit/ack/pulls?q=is%3Apr+author%3Akutluhaneth46) |
 | **Base** | Receipt Guard (tx/calldata decode + risk before sign) | [receipt-guard](https://github.com/kutluhaneth46/receipt-guard) |
+| **Fhenix** | CoFHE survival kit (private counter + sealed bid, Base Sepolia) | [fhenix-cofhe-survival-kit](https://github.com/kutluhaneth46/fhenix-cofhe-survival-kit) |
 
 ## Community showcases
 
@@ -21,6 +22,7 @@ Contributor across **Arc**, **Tempo**, **Miden**, **Sapiom**, **ACK**, and **Bas
 - Sapiom: [ecosystem-monitor agent](https://app.sapiom.ai/agents/748)
 - ACK: [ack #203](https://github.com/agentcommercekit/ack/pull/203) · [ack #202](https://github.com/agentcommercekit/ack/pull/202)
 - Base: [receipt-guard](https://github.com/kutluhaneth46/receipt-guard) · [base/node #1179](https://github.com/base/node/pull/1179)
+- Fhenix: [cofhe-hardhat-starter #19](https://github.com/FhenixProtocol/cofhe-hardhat-starter/pull/19) · [fhenix-cofhe-survival-kit](https://github.com/kutluhaneth46/fhenix-cofhe-survival-kit)
 
 ## Open contributions
 
