@@ -92,6 +92,14 @@ Contributor across **Arc**, **Tempo**, **Miden**, **Sapiom**, **ACK**, **Base**,
 
 </details>
 
+<details>
+<summary>Fhenix (CoFHE)</summary>
+
+- [cofhe-hardhat-starter #19](https://github.com/FhenixProtocol/cofhe-hardhat-starter/pull/19) — README ACP / sdk 0.7 alignment + `.env.example`
+- [fhenix-cofhe-survival-kit](https://github.com/kutluhaneth46/fhenix-cofhe-survival-kit) — private counter + sealed bid demos (mock / Base Sepolia)
+
+</details>
+
 ---
 
 *Automated daily status: [ecosystem-monitor](https://app.sapiom.ai/agents/748) (Sapiom agent, Europe/Istanbul 08:00)*
