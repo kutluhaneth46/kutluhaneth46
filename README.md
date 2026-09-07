@@ -1,6 +1,6 @@
 # kutluhaneth46
 
-Contributor across **Arc**, **Tempo**, **Miden**, **Sapiom**, **ACK**, **Base**, and **Fhenix**: docs, SDK fixes, and small reference repos.
+Contributor across **Arc**, **Tempo**, **Miden**, **Sapiom**, **ACK**, **Base**, **Fhenix**, and **Seismic**: docs, SDK fixes, and small reference repos.
 
 ## Showcase repos
 
@@ -13,6 +13,7 @@ Contributor across **Arc**, **Tempo**, **Miden**, **Sapiom**, **ACK**, **Base**,
 | **ACK** | Agent Commerce Kit: pay validation, HITL types, 402 middleware | [agentcommercekit/ack](https://github.com/agentcommercekit/ack/pulls?q=is%3Apr+author%3Akutluhaneth46) |
 | **Base** | Receipt Guard (tx/calldata decode + risk before sign) | [receipt-guard](https://github.com/kutluhaneth46/receipt-guard) |
 | **Fhenix** | CoFHE survival kit (private counter + sealed bid, Base Sepolia) | [fhenix-cofhe-survival-kit](https://github.com/kutluhaneth46/fhenix-cofhe-survival-kit) |
+| **Seismic** | Privacy EVM: anvil access-list hardening, seismic-react docs | [SeismicSystems PRs](https://github.com/pulls?q=is%3Apr+author%3Akutluhaneth46+org%3ASeismicSystems) |
 
 ## Community showcases
 
@@ -23,6 +24,7 @@ Contributor across **Arc**, **Tempo**, **Miden**, **Sapiom**, **ACK**, **Base**,
 - ACK: [ack #203](https://github.com/agentcommercekit/ack/pull/203) · [ack #202](https://github.com/agentcommercekit/ack/pull/202)
 - Base: [receipt-guard](https://github.com/kutluhaneth46/receipt-guard) · [base/node #1179](https://github.com/base/node/pull/1179)
 - Fhenix: [cofhe-hardhat-starter #19](https://github.com/FhenixProtocol/cofhe-hardhat-starter/pull/19) · [fhenix-cofhe-survival-kit](https://github.com/kutluhaneth46/fhenix-cofhe-survival-kit)
+- Seismic: [seismic-foundry #227](https://github.com/SeismicSystems/seismic-foundry/pull/227) · [seismic #305](https://github.com/SeismicSystems/seismic/pull/305) · [seismic #306](https://github.com/SeismicSystems/seismic/pull/306)
 
 ## Open contributions
 
@@ -89,6 +91,20 @@ Contributor across **Arc**, **Tempo**, **Miden**, **Sapiom**, **ACK**, **Base**,
 - [base/docs #1929](https://github.com/base/docs/pull/1929) — slashless .mintignore directory globs
 - [receipt-guard](https://github.com/kutluhaneth46/receipt-guard) — Base tx/calldata decode + risk receipt
 - [base-guild-builder-kit](https://github.com/kutluhaneth46/base-guild-builder-kit) — Guild Builders & Founders deploy kit
+
+</details>
+
+
+<details>
+<summary>Seismic (SeismicSystems)</summary>
+
+- [seismic-foundry #227](https://github.com/SeismicSystems/seismic-foundry/pull/227) — harden eth_createAccessList like eth_call/estimateGas
+- [seismic #306](https://github.com/SeismicSystems/seismic/pull/306) — Claude seismic-react template real package APIs
+- [seismic #305](https://github.com/SeismicSystems/seismic/pull/305) — SRC20 frontend tutorial seismic-react hooks
+- [seismic #293](https://github.com/SeismicSystems/seismic/pull/293) — encode numeric encryption nonces over full 96 bits
+- [seismic #291](https://github.com/SeismicSystems/seismic/pull/291) — count ERC-20/SRC-20 transfers toward session spend limit
+- [seismic #290](https://github.com/SeismicSystems/seismic/pull/290) — replace broken deploy repo links in TEE network manifest
+- [seismic #289](https://github.com/SeismicSystems/seismic/pull/289) — stop trimming AES-GCM precompile output
 
 </details>
 
