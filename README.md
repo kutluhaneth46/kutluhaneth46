@@ -6,7 +6,7 @@ Contributor across **Arc**, **Tempo**, **Miden**, **Sapiom**, **ACK**, **Base**,
 
 | Ecosystem | Project | Link |
 |-----------|---------|------|
-| **Arc** | Developer Survival Kit (EIP-7825, RPC fallbacks, viem) | [arc-dev-survival-kit](https://github.com/kutluhaneth46/arc-dev-survival-kit) |
+| **Arc** | arc-node genesis/runtime ProtocolConfig fix (merged) + survival kit | [arc-node #359](https://github.com/circlefin/arc-node/pull/359) · [arc-dev-survival-kit](https://github.com/kutluhaneth46/arc-dev-survival-kit) |
 | **Tempo** | Batch payout & reconciliation CLI | [tempo-batch-reconcile](https://github.com/kutluhaneth46/tempo-batch-reconcile) |
 | **Miden** | Web SDK survival kit (private notes, sync, amounts) | [miden-dev-survival-kit](https://github.com/kutluhaneth46/miden-dev-survival-kit) |
 | **Sapiom** | Multi-ecosystem PR & RPC monitor agent | [ecosystem-monitor-agent](https://github.com/kutluhaneth46/ecosystem-monitor-agent) |
@@ -17,7 +17,7 @@ Contributor across **Arc**, **Tempo**, **Miden**, **Sapiom**, **ACK**, **Base**,
 
 ## Community showcases
 
-- Arc: [arc-node #305](https://github.com/circlefin/arc-node/issues/305) · [arc-dev-survival-kit](https://github.com/kutluhaneth46/arc-dev-survival-kit)
+- Arc: [arc-node #359](https://github.com/circlefin/arc-node/pull/359) (merged) · [arc-dev-survival-kit](https://github.com/kutluhaneth46/arc-dev-survival-kit)
 - Tempo: [tempo-support #28](https://github.com/tempoxyz/tempo-support/issues/28)
 - Miden: [web-sdk #354](https://github.com/0xMiden/web-sdk/issues/354)
 - Sapiom: [ecosystem-monitor agent](https://app.sapiom.ai/agents/748)
@@ -31,6 +31,7 @@ Contributor across **Arc**, **Tempo**, **Miden**, **Sapiom**, **ACK**, **Base**,
 <details>
 <summary>Arc (circlefin)</summary>
 
+- [arc-node #359](https://github.com/circlefin/arc-node/pull/359) — **merged:** genesis ProtocolConfig ↔ runtime consensus/fee checks
 - [arc-node #308](https://github.com/circlefin/arc-node/pull/308) — RPC gascap vs protocol limits
 - [arc-node #307](https://github.com/circlefin/arc-node/pull/307) — snapshot URL FIXME cleanup
 - [arc-node #306](https://github.com/circlefin/arc-node/pull/306) — operator docs (version pins, eth_blockNumber)
