@@ -19,9 +19,9 @@ Contributor across **Arc**, **Tempo**, **Miden**, **Sapiom**, **ACK**, **Base**,
 
 - Arc: [arc-node #359](https://github.com/circlefin/arc-node/pull/359) (merged) · [arc-dev-survival-kit](https://github.com/kutluhaneth46/arc-dev-survival-kit)
 - Tempo: [tempo-support #28](https://github.com/tempoxyz/tempo-support/issues/28)
-- Miden: [web-sdk #354](https://github.com/0xMiden/web-sdk/issues/354)
+- Miden: [node #2591](https://github.com/0xMiden/node/pull/2591) (merged) · [web-sdk #354](https://github.com/0xMiden/web-sdk/issues/354)
 - Sapiom: [ecosystem-monitor agent](https://app.sapiom.ai/agents/748)
-- ACK: [ack #203](https://github.com/agentcommercekit/ack/pull/203) · [ack #202](https://github.com/agentcommercekit/ack/pull/202)
+- ACK: [ack #209](https://github.com/agentcommercekit/ack/pull/209) (merged) · [ack #208](https://github.com/agentcommercekit/ack/pull/208)
 - Base: [receipt-guard](https://github.com/kutluhaneth46/receipt-guard) · [base/node #1179](https://github.com/base/node/pull/1179)
 - Fhenix: [cofhe-hardhat-starter #19](https://github.com/FhenixProtocol/cofhe-hardhat-starter/pull/19) · [fhenix-cofhe-survival-kit](https://github.com/kutluhaneth46/fhenix-cofhe-survival-kit)
 - Seismic: [seismic-foundry #227](https://github.com/SeismicSystems/seismic-foundry/pull/227) · [seismic #305](https://github.com/SeismicSystems/seismic/pull/305) · [seismic #306](https://github.com/SeismicSystems/seismic/pull/306)
@@ -54,6 +54,7 @@ Contributor across **Arc**, **Tempo**, **Miden**, **Sapiom**, **ACK**, **Base**,
 <details>
 <summary>Miden (0xMiden)</summary>
 
+- [node #2591](https://github.com/0xMiden/node/pull/2591) — **merged:** remove unreachable InvalidBlockRange::EmptyRange
 - [web-sdk #356](https://github.com/0xMiden/web-sdk/pull/356) — vite-plugin CI lint
 - [web-sdk #355](https://github.com/0xMiden/web-sdk/pull/355) — idxdb downgrade store reset
 - [web-sdk #353](https://github.com/0xMiden/web-sdk/pull/353) — sendPrivateNote block hint
@@ -74,6 +75,7 @@ Contributor across **Arc**, **Tempo**, **Miden**, **Sapiom**, **ACK**, **Base**,
 <details>
 <summary>ACK (agentcommercekit)</summary>
 
+- [ack #209](https://github.com/agentcommercekit/ack/pull/209) — **merged:** createDidPkhUri JSDoc argument order
 - [ack #203](https://github.com/agentcommercekit/ack/pull/203) — reject empty payment request and option fields
 - [ack #202](https://github.com/agentcommercekit/ack/pull/202) — reject negative payment option decimals
 - [ack #198](https://github.com/agentcommercekit/ack/pull/198) — accept uppercase 0X prefix in isHexString
