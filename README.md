@@ -19,6 +19,9 @@ Stale snapshot URL FIXME removed from execution config defaults.
 
 ### Miden
 
+<a href="https://github.com/0xMiden/miden-vm/pull/3809">Miden VM #3809</a>
+PartialMmr from_parts and deserialization reject tracked leaves with incomplete authentication paths.
+
 <a href="https://github.com/0xMiden/node/pull/2591">Miden node #2591</a>
 Unreachable InvalidBlockRange EmptyRange path removed from proto.
 
@@ -38,8 +41,8 @@ Public testnet RPC capability notes for follow sync and app clients.
 <a href="https://github.com/0xMiden/miden-vm/pull/3808">Miden VM #3808</a>
 Felt IntValue Display no longer byte swaps push immediates.
 
-<a href="https://github.com/0xMiden/miden-vm/pull/3809">Miden VM #3809</a>
-PartialMmr from_parts validates tracked authentication paths.
+<a href="https://github.com/agentcommercekit/ack/pull/212">ACK #212</a>
+Invalid new BigInt usage fixed in the ack pay README example.
 
 <a href="https://github.com/FhenixProtocol/fhenix-toolkit/pull/27">Fhenix toolkit #27</a>
 Marketplace plugin install pinned to the v0.2.0 tag and commit.
