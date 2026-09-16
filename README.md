@@ -19,6 +19,9 @@ Stale snapshot URL FIXME removed from execution config defaults.
 
 ### Miden
 
+<a href="https://github.com/0xMiden/miden-vm/pull/3808">Miden VM #3808</a>
+Felt IntValue Display no longer byte swaps push immediates. Hex output now matches the canonical value.
+
 <a href="https://github.com/0xMiden/miden-vm/pull/3809">Miden VM #3809</a>
 PartialMmr from_parts and deserialization reject tracked leaves with incomplete authentication paths.
 
@@ -37,9 +40,6 @@ Effective base fee floor documented against minBaseFee.
 
 <a href="https://github.com/circlefin/arc-node/pull/373">Arc node #373</a>
 Public testnet RPC capability notes for follow sync and app clients.
-
-<a href="https://github.com/0xMiden/miden-vm/pull/3808">Miden VM #3808</a>
-Felt IntValue Display no longer byte swaps push immediates.
 
 <a href="https://github.com/agentcommercekit/ack/pull/212">ACK #212</a>
 Invalid new BigInt usage fixed in the ack pay README example.
