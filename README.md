@@ -1,116 +1,43 @@
-<div align="center">
-
 # KutluhanETH
 
-**Open source contributor · protocol infra · SDK and docs quality**
+Protocol and tooling contributor. Most of my work is upstream: correctness fixes, SDK surface, runtime edge cases, and the docs that keep those changes usable.
 
-Small, reviewable changes that land upstream. Correctness first, volume second.
+Deepest time goes into **Miden**, **Arc**, and adjacent Ethereum / Solana infra. Same approach everywhere: isolate a real failure mode, ship a small PR a maintainer can review in one pass, then stay through CI and review.
 
-<br/>
+[kutluhaneth.com](https://kutluhaneth.com) · [X](https://x.com/kutluhaneth) · [GitHub](https://github.com/kutluhaneth46)
 
-![Miden](https://img.shields.io/badge/Miden-7%20merged-1a3a2f?style=flat-square&labelColor=0d1117)
-![Arc](https://img.shields.io/badge/Arc-3%20merged-1e3a5f?style=flat-square&labelColor=0d1117)
-![Ethereum](https://img.shields.io/badge/Ethereum%20infra-live-2d2a1f?style=flat-square&labelColor=0d1117)
-![Solana](https://img.shields.io/badge/Solana%20infra-live-1f2d24?style=flat-square&labelColor=0d1117)
+## Surfaces
 
-</div>
+- **Miden** — web-sdk, VM, node, docs: client lifecycle, note and account paths, WASM workers
+- **Arc** — `arc-node` genesis, fees, RPC, contribution-gated protocol bugs
+- **EVM tooling** — Foundry, Alloy, Safe SDK, ACA-Py credential and presentation edge cases
+- **Runtime / systems** — Wasmtime, Firecracker guest kernels, Cargo CLI
+- **Clients / L1** — Lighthouse, Agave, Celestia docs, Hiero SDK
 
-<br/>
+## Selected merges
 
-## Upstream merges
+**Miden**
+- [web-sdk#623](https://github.com/0xMiden/web-sdk/pull/623) — local reads during worker sync and prove
+- [web-sdk#624](https://github.com/0xMiden/web-sdk/pull/624) — retry proven batches after indeterminate admission
+- [miden-vm#3808](https://github.com/0xMiden/miden-vm/pull/3808) — Felt `Display` no longer byte-swaps push immediates
+- [miden-vm#3809](https://github.com/0xMiden/miden-vm/pull/3809) — `PartialMmr` rejects tracked leaves with incomplete auth paths
 
-### Miden (7)
+**Arc**
+- [arc-node#359](https://github.com/circlefin/arc-node/pull/359) — genesis `ProtocolConfig` aligned with runtime consensus and fee checks
+- [arc-node#295](https://github.com/circlefin/arc-node/pull/295) — separated-host RPC transport deprecated as of v0.8.0
 
-**[docs #371](https://github.com/0xMiden/docs/pull/371)**  
-v0.14 native asset vault key/value encoding (fungible vs NFT, callback flags, leaf semantics)
+**Infra**
+- [cargo#17710](https://github.com/rust-lang/cargo/pull/17710) — OSC 8 links for package names in `cargo info`
+- [wasmtime#15197](https://github.com/bytecodealliance/wasmtime/pull/15197) — Cranelift `Args` / `Rets` in `Box<[T]>` instead of `Vec`
+- [foundry#18008](https://github.com/foundry-rs/foundry/pull/18008) — isolate campaign caches; keep string literals in dedup
+- [firecracker#6404](https://github.com/firecracker-microvm/firecracker/pull/6404) — MultiNamePath 255-segment AML limit documented
+- [alloy examples#274](https://github.com/alloy-rs/examples/pull/274) — `eth_sendBundle` MEV example
+- [lighthouse#10297](https://github.com/sigp/lighthouse/pull/10297) — peer manager RPC protocol match arms grouped
 
-**[web-sdk #410](https://github.com/0xMiden/web-sdk/pull/410)**  
-In-realm `WebClient` freed; replaced IndexedDB handles closed
+## In flight
 
-**[web-sdk #401](https://github.com/0xMiden/web-sdk/pull/401)**  
-`buildNetworkNote` exported from both package entries
-
-**[web-sdk #435](https://github.com/0xMiden/web-sdk/pull/435)**  
-`length()` exposed on SDK array polyfills for Node
-
-**[miden-vm #3808](https://github.com/0xMiden/miden-vm/pull/3808)**  
-Felt `IntValue` Display no longer byte-swaps push immediates
-
-**[miden-vm #3809](https://github.com/0xMiden/miden-vm/pull/3809)**  
-`PartialMmr` rejects tracked leaves with incomplete auth paths
-
-**[node #2591](https://github.com/0xMiden/node/pull/2591)**  
-Unreachable `InvalidBlockRange::EmptyRange` removed from proto
-
-### Arc (3)
-
-**[arc-node #359](https://github.com/circlefin/arc-node/pull/359)**  
-Genesis `ProtocolConfig` aligned with runtime consensus and fee checks
-
-**[arc-node #295](https://github.com/circlefin/arc-node/pull/295)**  
-Separated-host RPC transport marked deprecated as of v0.8.0
-
-**[arc-node #307](https://github.com/circlefin/arc-node/pull/307)**  
-Stale snapshot URL FIXME removed from execution config defaults
-
-### Ethereum / consensus (2)
-
-**[Lighthouse #10297](https://github.com/sigp/lighthouse/pull/10297)**  
-Peer manager RPC protocol match arms grouped
-
-**[Hiero SDK JS #4498](https://github.com/hiero-ledger/hiero-sdk-js/pull/4498)**  
-Spelling fixes in entity ID, account, and contract comments
-
-### Tempo and ACK (2)
-
-**[mpp-rs #437](https://github.com/tempoxyz/mpp-rs/pull/437)**  
-`FileStore` keys no longer poisoned on partial write
-
-**[ACK #209](https://github.com/agentcommercekit/ack/pull/209)**  
-`createDidPkhUri` JSDoc argument order fixed to match the signature
-
-<br/>
-
-## In review
-
-Curated open work across nurture and the broader infra track.
-
-**[Kora #737](https://github.com/solana-foundation/kora/pull/737)**  
-`sponsor_only_programs` validation config
-
-**[reth #27857](https://github.com/paradigmxyz/reth/pull/27857)**  
-Precompiles shadowed when state override sets code
-
-**[Arc node #372](https://github.com/circlefin/arc-node/pull/372)**  
-Effective base-fee floor vs `minBaseFee`
-
-**[ACK #232](https://github.com/agentcommercekit/ack/pull/232)**  
-Payment request `expiresAt` enforced
-
-**[Tempo #7930](https://github.com/tempoxyz/tempo/pull/7930)**  
-`build-cargo-docs.sh` fails when cargo docs fails
-
-**[Fhenix toolkit #27](https://github.com/FhenixProtocol/fhenix-toolkit/pull/27)**  
-Marketplace plugin install pinned to v0.2.0
-
-**[Alloy #274](https://github.com/alloy-rs/examples/pull/274)**  
-`eth_sendBundle` MEV example
-
-**[Celestia #2645](https://github.com/celestiaorg/docs/pull/2645)**  
-Key `celestia-node` metrics documented
-
-**[Optimism #627](https://github.com/ethereum-optimism/actions/pull/627)**  
-Explorer URLs on borrow/swap receipts
-
-**[Fuel #3348](https://github.com/FuelLabs/fuel-core/pull/3348)**  
-GraphQL playground auth token / provider query
-
-<br/>
-
-## Focus
-
-1. **Miden:** protocol, web-sdk, docs; testnet builder path
-2. **Arc, ACK, Tempo, Fhenix, Thru:** nurture loops and follow-ups
-3. **Broader infra:** Foundry, Lighthouse, reth, Kora, Alloy, Celestia, and related stacks
-
-One clear problem per PR. Quality over volume.
+- [foundry#18722](https://github.com/foundry-rs/foundry/pull/18722) — Monad reserve policy refresh on `setEvmVersion` frames
+- [cargo#17802](https://github.com/rust-lang/cargo/pull/17802) — nonzero exit when applied `cargo fix` suggestions fail verification
+- [wasmtime#15459](https://github.com/bytecodealliance/wasmtime/pull/15459) — expired absolute REALTIME timeout returns ready
+- [firecracker#6483](https://github.com/firecracker-microvm/firecracker/pull/6483) — aarch64 6.18 64k-page CI guest kernel config
+- [agave#17096](https://github.com/anza-xyz/agave/pull/17096) — websocket URL builder no longer panics on port 65535
