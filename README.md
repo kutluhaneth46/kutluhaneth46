@@ -9,5 +9,3 @@ What I am good at:
 - Shipping small, reviewable upstream PRs
 - Following CI and review until the change lands
 - Assign-first / contribution-gated repos when the project asks for it
-
-[kutluhaneth.com](https://kutluhaneth.com) · [X](https://x.com/kutluhaneth)
